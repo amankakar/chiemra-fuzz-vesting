@@ -1,0 +1,5 @@
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/
+@prb=node_modules/@prb
+@crytic/properties/=lib/properties
+@chimera/=lib/chimera/src
