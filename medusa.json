@@ -54,12 +54,6 @@
 		  "testPrefixes": [
 			"echidna_"
 		  ]
-		},
-		"optimizationTesting": {
-		  "enabled": false,
-		  "testPrefixes": [
-			"echidna_"
-		  ]
 		}
 	  },
 	  "chainConfig": {

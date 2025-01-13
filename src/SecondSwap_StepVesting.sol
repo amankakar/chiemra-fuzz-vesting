@@ -227,7 +227,7 @@ contract SecondSwap_StepVesting is SecondSwap_Vesting {
         require(_beneficiary != address(0), "SS_StepVesting: beneficiary is zero");
         require(_amount > 0, "SS_StepVesting: amount is zero");
         Vesting storage grantorVesting = _vestings[_grantor];
-        // claim(_grantor);
+        claim(_grantor);
         require(
             grantorVesting.totalAmount - grantorVesting.amountClaimed >= _amount,
             "SS_StepVesting: insufficient balance"

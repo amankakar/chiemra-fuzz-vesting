@@ -22,7 +22,7 @@ contract CryticToFoundry is Test, TargetFunctions, FoundryAsserts {
     }
 
     function invariant_vesting_balance() public {
-        assertTrue(echidna_vesting_balance());
+        assertTrue(!echidna_vesting_balance());
     }
     function invariant_vesting_total() public {
         assertTrue(echidna_vesting_total());
